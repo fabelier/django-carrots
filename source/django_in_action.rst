@@ -26,14 +26,14 @@ Installation
 Installez Django en exécutant la commande suivante dans la console : ``pip install django==1.6.4``.
 
 .. code-block:: sh
-'''
+
    (workshops) ~$ pip install django==1.6.4
    Downloading/unpacking django==1.6.4
      Downloading Django-1.6.4-py2.py3-none-any.whl (6.7MB): 6.7MB downloaded
    Installing collected packages: django
    Successfully installed django
    Cleaning up...
-'''
+
 Le paquet adéquat est alors téléchargé depuis `PyPI <http://pypi.python.org>`_ - un dépôt centralisé de paquets de code où sont disponibles de nombreuses bibliothèques.
 
 
@@ -57,6 +57,7 @@ Django fournit le script d'administration ``django-admin.py`` qui permet entre a
    └── manage.py
 
    1 directory, 5 files
+
 
 .. code-block:: bat
 
