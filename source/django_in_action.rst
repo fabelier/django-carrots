@@ -149,7 +149,7 @@ Si vous voulez en apprendre davantage au sujet de ``manage.py``, vous pouvez ex�
 
     (workshops) ~/carrots$ python manage.py help
 
- Vous verrez alors la liste de toutes les commandes et options proposées par ``manage.py``. Pour obtenir de l'aide sur l'une de ces commandes, il suffit alors de taper ``python manage.py help``, suivi du nom de la commande en question -- par exemple ::
+ Vous verrez alors la liste de toutes les commandes et options proposées par ``manage.py``. Pour obtenir de l'aide sur l'une de ces commandes, il suffit alors de taper ``python manage.py help``, suivi du nom de la commande en question -- par exemple
 
 .. code-block:: sh
 
@@ -184,7 +184,9 @@ Nous avons jusqu'à présent créé un projet appelé ``carrots``. Les projets D
 
 Nous voulons publier des sondages sur notre site, nous allons donc créer une application nommée ``polls`` (ce qui signifie ``sondages`` en anglais -- l'anglais étant la langue la plus fréquemment utilisée au sein des projets informatiques).
 
-Depuis l'invite de commandes, tapez ``python manage.py startapp polls`` ::
+Depuis l'invite de commandes, tapez ``python manage.py startapp polls`` 
+
+::
 
    (workshops) ~/carrots$ python manage.py startapp polls
    (workshops) ~/carrots$ tree .
@@ -228,13 +230,13 @@ Les applications Django sont constituées de plusieurs fichiers :
 En résumé
 ---------
 
-Pour installer Django ::
+Pour installer Django
 
 .. code-block:: sh
 
    (workshops) ~$ pip install django==1.6.4
 
-Pour créer un projet Django ::
+Pour créer un projet Django 
 
 .. code-block:: sh
 
@@ -262,7 +264,7 @@ Pour créer ou mettre à jour la base de données, il faut lancer cette commande
 
    (workshops) ~/carrots$ python manage.py syncdb
 
-Pour démarrer le serveur d'application ::
+Pour démarrer le serveur d'application
 
 .. code-block:: sh
 
