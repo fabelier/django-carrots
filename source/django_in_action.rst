@@ -111,7 +111,7 @@ Comme vous pouvez le voir, ``INSTALLED_APPS`` est tout simplement un tuple de no
 Base de données
 ---------------
 
-Le moment est maintenant venu d'utiliser le fichier ``manage.py`` pour créer la base de données de notre site. Pour ce faire, nous allons utiliser l'option ``syncdb``. Lancez donc la commande ``python manage.py syncdb`` depuis le répertoire du projet ::
+Le moment est maintenant venu d'utiliser le fichier ``manage.py`` pour créer la base de données de notre site. Pour ce faire, nous allons utiliser l'option ``syncdb``. Lancez donc la commande ``python manage.py syncdb`` depuis le répertoire du projet
 
 .. code-block:: sh
 
