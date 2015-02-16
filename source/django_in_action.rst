@@ -258,7 +258,7 @@ Pour régler le langage et le fuseau horaire, dans le fichier ``carrots/settings
 
    USE_TZ = False
 
-Pour créer ou mettre à jour la base de données, il faut lancer cette commande après avoir ajouté un nouveau modèle de données ::
+Pour créer ou mettre à jour la base de données, il faut lancer cette commande après avoir ajouté un nouveau modèle de données
 
 .. code-block:: sh
 
@@ -270,7 +270,7 @@ Pour démarrer le serveur d'application
 
    (workshops) ~/carrots$ python manage.py runserver
 
-Pour créer une nouvelle application, par exemple nommée ``polls`` ::
+Pour créer une nouvelle application, par exemple nommée ``polls``
 
 .. code-block:: sh
 
