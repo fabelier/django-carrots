@@ -61,7 +61,7 @@ Django fournit le script d'administration ``django-admin.py`` qui permet entre a
 
 .. code-block:: bat
 
-   :: Windows
+   # Windows
 
    (workshops) C:\Users\Alex> python -m django-admin startproject carrots
    (workshops) C:\Users\Alex> tree /f carrots
